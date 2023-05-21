@@ -84,4 +84,3 @@ build_and_push_to_docker_hub:
                 #остановка всех контейнеров
                 sudo docker stop $(sudo docker ps -a -q)
                 sudo docker run --rm -d -p 5000:5000 <имя-пользователя>/<имя-репозитория>
-                
